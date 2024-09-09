@@ -18,7 +18,7 @@ public class ProductDao
 	public String postAll( List<Product> a)
 	{
 		 pr.saveAll(a);
-		 return "posted";
+		 return "posted successfully";
 	}
 	
 	public List<Product> getAll()
